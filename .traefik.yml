@@ -1,18 +1,14 @@
 # The name of your plugin as displayed in the Plugins Catalog web UI.
-displayName: Name of your plugin
+displayName: Attach Header from Body Key
 
 # For now, `middleware` is the only type available.
 type: middleware
 
 # The import path of your plugin.
-import: github.com/username/my-plugin
+import: github.com/itrogers/traefik-attach-header-from-body-plugin
 
 # A brief description of what your plugin is doing.
-summary: Description of what my plugin is doing
-
-# Medias associated to the plugin (optional)
-iconPath: foo/icon.png
-bannerPath: foo/banner.png
+summary: Attaches a custom header with the value based on a key in the body of a request.
 
 # Configuration data for your plugin.
 # This is mandatory,
